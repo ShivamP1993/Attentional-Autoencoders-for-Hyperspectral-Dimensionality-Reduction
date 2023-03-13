@@ -26,16 +26,16 @@ Steps:
 ```
 
 If using the concept or code, kindly cite the paper as: 
->S. Pande, B. Banerjee. Attention based convolution autoencoder for dimensionality reduction in hyperspectral images. IEEE International Geoscience and Remote Sensing Symposium (IGARSS), July, 2021.
+>S. Pande, B. Banerjee. Feedback Convolution Based Autoencoder for Dimensionality Reduction in Hyperspectral Images. IEEE International Geoscience and Remote Sensing Symposium (IGARSS), July, 2022.
 
 You can also use the bibtex as:
 ```
-@inproceedings{pande2021attention,
-  title={Attention Based Convolution Autoencoder for Dimensionality Reduction in Hyperspectral Images},
+@inproceedings{pande2022feedback,
+  title={Feedback Convolution Based Autoencoder for Dimensionality Reduction in Hyperspectral Images},
   author={Pande, Shivam and Banerjee, Biplab},
-  booktitle={2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS},
-  pages={2727--2730},
-  year={2021},
+  booktitle={IGARSS 2022-2022 IEEE International Geoscience and Remote Sensing Symposium},
+  pages={147--150},
+  year={2022},
   organization={IEEE}
 }
 ```

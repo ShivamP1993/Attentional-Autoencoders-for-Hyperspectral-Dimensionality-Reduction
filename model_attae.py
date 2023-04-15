@@ -175,7 +175,7 @@ for epoch in range(500):
   
   # Create model with reduced dimensions. 
   # The extracted train and test features go to random forest classifier for validation purposes
-  new_model = Model(aeC.input, aeC.layers[7].output, name = 'new_model') 
+  new_model = Model(aeC.input, aeC.layers[22].output, name = 'new_model') 
   code_feat_train = np.reshape(new_model.predict(train_vec),[1024,5])
   code_feat_test = np.reshape(new_model.predict(test_vec),[9225,5])
 

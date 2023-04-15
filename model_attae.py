@@ -96,11 +96,11 @@ def get_gt_index(y):
 
 ## Read the training and test vectors for the Indian Pines dataset
 
-train_vec = np.reshape(np.load('/content/gdrive/My Drive/Projects/IGARSS21/IP/train_vec.npy')[:,5,5,:], [-1,200,1])
-train_labels = np.load('/content/gdrive/My Drive/Projects/IGARSS21/IP/train_labels.npy')
+train_vec = np.reshape(np.load('data/rain_vec.npy')[:,5,5,:], [-1,200,1])
+train_labels = np.load('data/train_labels.npy')
 
-test_vec = np.reshape(np.load('/content/gdrive/My Drive/Projects/IGARSS21/IP/test_vec.npy')[:,5,5,:], [-1,200,1])
-test_labels = np.load('/content/gdrive/My Drive/Projects/IGARSS21/IP/test_labels.npy')
+test_vec = np.reshape(np.load('data/test_vec.npy')[:,5,5,:], [-1,200,1])
+test_labels = np.load('data/test_labels.npy')
 
 # Define Attention function
 

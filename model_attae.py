@@ -103,9 +103,12 @@ test_vec = np.reshape(np.load('/content/gdrive/My Drive/Projects/IGARSS21/IP/tes
 test_labels = np.load('/content/gdrive/My Drive/Projects/IGARSS21/IP/test_labels.npy')
 
 # Define Attention function
-def Attn_fn(x):
 
-  x1 = Conv1D(256, 7, activation="relu", strides=2, padding="same")(x)
+def Att_fn(x):
+
+  shp = x.shape
+
+  x1 = Conv1D(shp[2], 7, activation="relu", strides=1, padding="same")(x)
   x2 = Multiply()([x1,x])
   x = Add()([x,x2])
   return x
